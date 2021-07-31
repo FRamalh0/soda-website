@@ -1,0 +1,28 @@
+.footer {
+    background-color: #e61d2b;
+    width: 100%;
+    padding: 20px 0px 20px 0px;
+}
+
+p {
+    color: rgb(255, 255, 255);
+
+    font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial,  sans-serif;
+    font-size: 0.7rem;
+
+    text-align: center;
+
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+a {
+    color: white;
+}
+
+.bold {
+    font-weight: bold;
+}

@@ -1,0 +1,59 @@
+.model {
+    max-width:1000px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.modelText {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.model h2 {
+    font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial,  sans-serif;
+    font-size: 3rem;
+    padding: 0;
+    color: black;
+    margin: 0;
+}
+
+.model h3 {
+    font-family: 'Gotham SSm A', 'Gotham SSm B', 'Helvetica Neue', Helvetica, Arial,  sans-serif;
+    font-size: 1rem;
+    padding: 0;
+    color: #e61d2b;
+    margin-top:5px;
+    margin-bottom: 20px;
+}
+
+app-model {
+    width: 50%;
+    height: 450px;
+}
+
+@media screen and (max-width: 800px) {
+
+    .model {
+        flex-direction: column;
+    }
+
+    .model h2 {
+        text-align: center;
+    }
+
+    .model h3 {
+        text-align: center;
+    }
+
+    app-model {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+}

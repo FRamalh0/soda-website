@@ -1,0 +1,22 @@
+<div class="header">
+    <img class="logo" src="assets/logo.png">
+    <div class="headerButton">
+        <a>PRODUTOS</a>
+        <a>Q&A</a>
+        <a>SOBRE NÓS</a>
+        <a><img src="assets/search.png"></a>
+    </div>
+    <div class="headerButtonMobile">
+        <a (click)="open()">
+            <img *ngIf="!isOpen" src="assets/menu.png">
+            <img *ngIf="isOpen" src="assets/close.png">
+        </a>   
+    </div>
+</div>
+
+<div class="menu" *ngIf="isOpen">
+    <a>PRODUTOS</a>
+    <a>Q&A</a>
+    <a>SOBRE NÓS</a>
+    <a><img src="assets/search.png"></a>
+</div>
